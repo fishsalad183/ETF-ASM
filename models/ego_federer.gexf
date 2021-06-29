@@ -1,85 +1,616 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2021-06-29">
+  <meta lastmodifieddate="2021-06-30">
     <creator>NetworkX 2.5</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="ego_federer">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="full_name" type="string" />
+      <attribute id="1" title="first_name" type="string" />
+      <attribute id="2" title="last_name" type="string" />
+      <attribute id="3" title="country_code" type="string" />
+    </attributes>
     <nodes>
-      <node id="105732" label="Pierre Hugues Herbert" />
-      <node id="105223" label="Juan Martin Del Potro" />
-      <node id="106378" label="Kyle Edmund" />
-      <node id="105227" label="Marin Cilic" />
-      <node id="103819" label="Roger Federer" />
-      <node id="105357" label="John Millman" />
-      <node id="126094" label="Andrey Rublev" />
-      <node id="106000" label="Damir Dzumhur" />
-      <node id="126610" label="Matteo Berrettini" />
-      <node id="104468" label="Gilles Simon" />
-      <node id="104731" label="Kevin Anderson" />
-      <node id="104607" label="Tomas Berdych" />
-      <node id="105376" label="Peter Gojowczyk" />
-      <node id="106401" label="Nick Kyrgios" />
-      <node id="128034" label="Hubert Hurkacz" />
-      <node id="105379" label="Aljaz Bedene" />
-      <node id="100644" label="Alexander Zverev" />
-      <node id="104871" label="Jeremy Chardy" />
-      <node id="104999" label="Mischa Zverev" />
-      <node id="104745" label="Rafael Nadal" />
-      <node id="105643" label="Federico Delbonis" />
-      <node id="106415" label="Yoshihito Nishioka" />
-      <node id="105777" label="Grigor Dimitrov" />
-      <node id="105138" label="Roberto Bautista Agut" />
-      <node id="104755" label="Richard Gasquet" />
-      <node id="106421" label="Daniil Medvedev" />
-      <node id="105526" label="Jan Lennard Struff" />
-      <node id="106423" label="Thanasi Kokkinakis" />
-      <node id="126774" label="Stefanos Tsitsipas" />
-      <node id="105657" label="Marius Copil" />
-      <node id="133430" label="Denis Shapovalov" />
-      <node id="132283" label="Lorenzo Sonego" />
-      <node id="105916" label="Marton Fucsovics" />
-      <node id="106045" label="Denis Kudla" />
-      <node id="126652" label="Jay Clarke" />
-      <node id="106298" label="Lucas Pouille" />
-      <node id="106432" label="Borna Coric" />
-      <node id="104898" label="Robin Haase" />
-      <node id="104259" label="Philipp Kohlschreiber" />
-      <node id="105676" label="David Goffin" />
-      <node id="104269" label="Fernando Verdasco" />
-      <node id="105550" label="Guido Pella" />
-      <node id="104527" label="Stanislas Wawrinka" />
-      <node id="105936" label="Filip Krajinovic" />
-      <node id="105041" label="Lukas Lacko" />
-      <node id="105554" label="Daniel Evans" />
-      <node id="105683" label="Milos Raonic" />
-      <node id="105173" label="Adrian Mannarino" />
-      <node id="105430" label="Radu Albot" />
-      <node id="104919" label="Leonardo Mayer" />
-      <node id="104792" label="Gael Monfils" />
-      <node id="111576" label="Sumit Nagal" />
-      <node id="200282" label="Alex De Minaur" />
-      <node id="105051" label="Matthew Ebden" />
-      <node id="105815" label="Tennys Sandgren" />
-      <node id="104925" label="Novak Djokovic" />
-      <node id="104926" label="Fabio Fognini" />
-      <node id="104797" label="Denis Istomin" />
-      <node id="105311" label="Joao Sousa" />
-      <node id="104545" label="John Isner" />
-      <node id="111202" label="Hyeon Chung" />
-      <node id="104542" label="Jo Wilfried Tsonga" />
-      <node id="106214" label="Oscar Otte" />
-      <node id="105449" label="Steve Johnson" />
-      <node id="105453" label="Kei Nishikori" />
-      <node id="144750" label="Lloyd George Muirhead Harris" />
-      <node id="105583" label="Dusan Lajovic" />
-      <node id="105074" label="Ruben Bemelmans" />
-      <node id="134770" label="Casper Ruud" />
-      <node id="105332" label="Benoit Paire" />
-      <node id="106228" label="Juan Ignacio Londero" />
-      <node id="105077" label="Albert Ramos" />
-      <node id="104312" label="Andreas Seppi" />
-      <node id="106233" label="Dominic Thiem" />
-      <node id="126203" label="Taylor Harry Fritz" />
+      <node id="105732" label="Herbert">
+        <attvalues>
+          <attvalue for="0" value="Pierre Hugues Herbert" />
+          <attvalue for="1" value="Pierre Hugues" />
+          <attvalue for="2" value="Herbert" />
+          <attvalue for="3" value="FRA" />
+        </attvalues>
+      </node>
+      <node id="105223" label="Del Potro">
+        <attvalues>
+          <attvalue for="0" value="Juan Martin Del Potro" />
+          <attvalue for="1" value="Juan Martin" />
+          <attvalue for="2" value="Del Potro" />
+          <attvalue for="3" value="ARG" />
+        </attvalues>
+      </node>
+      <node id="106378" label="Edmund">
+        <attvalues>
+          <attvalue for="0" value="Kyle Edmund" />
+          <attvalue for="1" value="Kyle" />
+          <attvalue for="2" value="Edmund" />
+          <attvalue for="3" value="GBR" />
+        </attvalues>
+      </node>
+      <node id="105227" label="Cilic">
+        <attvalues>
+          <attvalue for="0" value="Marin Cilic" />
+          <attvalue for="1" value="Marin" />
+          <attvalue for="2" value="Cilic" />
+          <attvalue for="3" value="CRO" />
+        </attvalues>
+      </node>
+      <node id="103819" label="Federer">
+        <attvalues>
+          <attvalue for="0" value="Roger Federer" />
+          <attvalue for="1" value="Roger" />
+          <attvalue for="2" value="Federer" />
+          <attvalue for="3" value="SUI" />
+        </attvalues>
+      </node>
+      <node id="105357" label="Millman">
+        <attvalues>
+          <attvalue for="0" value="John Millman" />
+          <attvalue for="1" value="John" />
+          <attvalue for="2" value="Millman" />
+          <attvalue for="3" value="AUS" />
+        </attvalues>
+      </node>
+      <node id="126094" label="Rublev">
+        <attvalues>
+          <attvalue for="0" value="Andrey Rublev" />
+          <attvalue for="1" value="Andrey" />
+          <attvalue for="2" value="Rublev" />
+          <attvalue for="3" value="RUS" />
+        </attvalues>
+      </node>
+      <node id="106000" label="Dzumhur">
+        <attvalues>
+          <attvalue for="0" value="Damir Dzumhur" />
+          <attvalue for="1" value="Damir" />
+          <attvalue for="2" value="Dzumhur" />
+          <attvalue for="3" value="BIH" />
+        </attvalues>
+      </node>
+      <node id="126610" label="Berrettini">
+        <attvalues>
+          <attvalue for="0" value="Matteo Berrettini" />
+          <attvalue for="1" value="Matteo" />
+          <attvalue for="2" value="Berrettini" />
+          <attvalue for="3" value="ITA" />
+        </attvalues>
+      </node>
+      <node id="104468" label="Simon">
+        <attvalues>
+          <attvalue for="0" value="Gilles Simon" />
+          <attvalue for="1" value="Gilles" />
+          <attvalue for="2" value="Simon" />
+          <attvalue for="3" value="FRA" />
+        </attvalues>
+      </node>
+      <node id="104731" label="Anderson">
+        <attvalues>
+          <attvalue for="0" value="Kevin Anderson" />
+          <attvalue for="1" value="Kevin" />
+          <attvalue for="2" value="Anderson" />
+          <attvalue for="3" value="RSA" />
+        </attvalues>
+      </node>
+      <node id="104607" label="Berdych">
+        <attvalues>
+          <attvalue for="0" value="Tomas Berdych" />
+          <attvalue for="1" value="Tomas" />
+          <attvalue for="2" value="Berdych" />
+          <attvalue for="3" value="CZE" />
+        </attvalues>
+      </node>
+      <node id="105376" label="Gojowczyk">
+        <attvalues>
+          <attvalue for="0" value="Peter Gojowczyk" />
+          <attvalue for="1" value="Peter" />
+          <attvalue for="2" value="Gojowczyk" />
+          <attvalue for="3" value="GER" />
+        </attvalues>
+      </node>
+      <node id="106401" label="Kyrgios">
+        <attvalues>
+          <attvalue for="0" value="Nick Kyrgios" />
+          <attvalue for="1" value="Nick" />
+          <attvalue for="2" value="Kyrgios" />
+          <attvalue for="3" value="AUS" />
+        </attvalues>
+      </node>
+      <node id="128034" label="Hurkacz">
+        <attvalues>
+          <attvalue for="0" value="Hubert Hurkacz" />
+          <attvalue for="1" value="Hubert" />
+          <attvalue for="2" value="Hurkacz" />
+          <attvalue for="3" value="POL" />
+        </attvalues>
+      </node>
+      <node id="105379" label="Bedene">
+        <attvalues>
+          <attvalue for="0" value="Aljaz Bedene" />
+          <attvalue for="1" value="Aljaz" />
+          <attvalue for="2" value="Bedene" />
+          <attvalue for="3" value="SLO" />
+        </attvalues>
+      </node>
+      <node id="100644" label="Zverev">
+        <attvalues>
+          <attvalue for="0" value="Alexander Zverev" />
+          <attvalue for="1" value="Alexander" />
+          <attvalue for="2" value="Zverev" />
+          <attvalue for="3" value="GER" />
+        </attvalues>
+      </node>
+      <node id="104871" label="Chardy">
+        <attvalues>
+          <attvalue for="0" value="Jeremy Chardy" />
+          <attvalue for="1" value="Jeremy" />
+          <attvalue for="2" value="Chardy" />
+          <attvalue for="3" value="FRA" />
+        </attvalues>
+      </node>
+      <node id="104999" label="Zverev">
+        <attvalues>
+          <attvalue for="0" value="Mischa Zverev" />
+          <attvalue for="1" value="Mischa" />
+          <attvalue for="2" value="Zverev" />
+          <attvalue for="3" value="GER" />
+        </attvalues>
+      </node>
+      <node id="104745" label="Nadal">
+        <attvalues>
+          <attvalue for="0" value="Rafael Nadal" />
+          <attvalue for="1" value="Rafael" />
+          <attvalue for="2" value="Nadal" />
+          <attvalue for="3" value="ESP" />
+        </attvalues>
+      </node>
+      <node id="105643" label="Delbonis">
+        <attvalues>
+          <attvalue for="0" value="Federico Delbonis" />
+          <attvalue for="1" value="Federico" />
+          <attvalue for="2" value="Delbonis" />
+          <attvalue for="3" value="ARG" />
+        </attvalues>
+      </node>
+      <node id="106415" label="Nishioka">
+        <attvalues>
+          <attvalue for="0" value="Yoshihito Nishioka" />
+          <attvalue for="1" value="Yoshihito" />
+          <attvalue for="2" value="Nishioka" />
+          <attvalue for="3" value="JPN" />
+        </attvalues>
+      </node>
+      <node id="105777" label="Dimitrov">
+        <attvalues>
+          <attvalue for="0" value="Grigor Dimitrov" />
+          <attvalue for="1" value="Grigor" />
+          <attvalue for="2" value="Dimitrov" />
+          <attvalue for="3" value="BUL" />
+        </attvalues>
+      </node>
+      <node id="105138" label="Bautista Agut">
+        <attvalues>
+          <attvalue for="0" value="Roberto Bautista Agut" />
+          <attvalue for="1" value="Roberto" />
+          <attvalue for="2" value="Bautista Agut" />
+          <attvalue for="3" value="ESP" />
+        </attvalues>
+      </node>
+      <node id="104755" label="Gasquet">
+        <attvalues>
+          <attvalue for="0" value="Richard Gasquet" />
+          <attvalue for="1" value="Richard" />
+          <attvalue for="2" value="Gasquet" />
+          <attvalue for="3" value="FRA" />
+        </attvalues>
+      </node>
+      <node id="106421" label="Medvedev">
+        <attvalues>
+          <attvalue for="0" value="Daniil Medvedev" />
+          <attvalue for="1" value="Daniil" />
+          <attvalue for="2" value="Medvedev" />
+          <attvalue for="3" value="RUS" />
+        </attvalues>
+      </node>
+      <node id="105526" label="Struff">
+        <attvalues>
+          <attvalue for="0" value="Jan Lennard Struff" />
+          <attvalue for="1" value="Jan Lennard" />
+          <attvalue for="2" value="Struff" />
+          <attvalue for="3" value="GER" />
+        </attvalues>
+      </node>
+      <node id="106423" label="Kokkinakis">
+        <attvalues>
+          <attvalue for="0" value="Thanasi Kokkinakis" />
+          <attvalue for="1" value="Thanasi" />
+          <attvalue for="2" value="Kokkinakis" />
+          <attvalue for="3" value="AUS" />
+        </attvalues>
+      </node>
+      <node id="126774" label="Tsitsipas">
+        <attvalues>
+          <attvalue for="0" value="Stefanos Tsitsipas" />
+          <attvalue for="1" value="Stefanos" />
+          <attvalue for="2" value="Tsitsipas" />
+          <attvalue for="3" value="GRE" />
+        </attvalues>
+      </node>
+      <node id="105657" label="Copil">
+        <attvalues>
+          <attvalue for="0" value="Marius Copil" />
+          <attvalue for="1" value="Marius" />
+          <attvalue for="2" value="Copil" />
+          <attvalue for="3" value="ROU" />
+        </attvalues>
+      </node>
+      <node id="133430" label="Shapovalov">
+        <attvalues>
+          <attvalue for="0" value="Denis Shapovalov" />
+          <attvalue for="1" value="Denis" />
+          <attvalue for="2" value="Shapovalov" />
+          <attvalue for="3" value="CAN" />
+        </attvalues>
+      </node>
+      <node id="132283" label="Sonego">
+        <attvalues>
+          <attvalue for="0" value="Lorenzo Sonego" />
+          <attvalue for="1" value="Lorenzo" />
+          <attvalue for="2" value="Sonego" />
+          <attvalue for="3" value="ITA" />
+        </attvalues>
+      </node>
+      <node id="105916" label="Fucsovics">
+        <attvalues>
+          <attvalue for="0" value="Marton Fucsovics" />
+          <attvalue for="1" value="Marton" />
+          <attvalue for="2" value="Fucsovics" />
+          <attvalue for="3" value="HUN" />
+        </attvalues>
+      </node>
+      <node id="106045" label="Kudla">
+        <attvalues>
+          <attvalue for="0" value="Denis Kudla" />
+          <attvalue for="1" value="Denis" />
+          <attvalue for="2" value="Kudla" />
+          <attvalue for="3" value="USA" />
+        </attvalues>
+      </node>
+      <node id="126652" label="Clarke">
+        <attvalues>
+          <attvalue for="0" value="Jay Clarke" />
+          <attvalue for="1" value="Jay" />
+          <attvalue for="2" value="Clarke" />
+          <attvalue for="3" value="GBR" />
+        </attvalues>
+      </node>
+      <node id="106298" label="Pouille">
+        <attvalues>
+          <attvalue for="0" value="Lucas Pouille" />
+          <attvalue for="1" value="Lucas" />
+          <attvalue for="2" value="Pouille" />
+          <attvalue for="3" value="FRA" />
+        </attvalues>
+      </node>
+      <node id="106432" label="Coric">
+        <attvalues>
+          <attvalue for="0" value="Borna Coric" />
+          <attvalue for="1" value="Borna" />
+          <attvalue for="2" value="Coric" />
+          <attvalue for="3" value="CRO" />
+        </attvalues>
+      </node>
+      <node id="104898" label="Haase">
+        <attvalues>
+          <attvalue for="0" value="Robin Haase" />
+          <attvalue for="1" value="Robin" />
+          <attvalue for="2" value="Haase" />
+          <attvalue for="3" value="NED" />
+        </attvalues>
+      </node>
+      <node id="104259" label="Kohlschreiber">
+        <attvalues>
+          <attvalue for="0" value="Philipp Kohlschreiber" />
+          <attvalue for="1" value="Philipp" />
+          <attvalue for="2" value="Kohlschreiber" />
+          <attvalue for="3" value="GER" />
+        </attvalues>
+      </node>
+      <node id="105676" label="Goffin">
+        <attvalues>
+          <attvalue for="0" value="David Goffin" />
+          <attvalue for="1" value="David" />
+          <attvalue for="2" value="Goffin" />
+          <attvalue for="3" value="BEL" />
+        </attvalues>
+      </node>
+      <node id="104269" label="Verdasco">
+        <attvalues>
+          <attvalue for="0" value="Fernando Verdasco" />
+          <attvalue for="1" value="Fernando" />
+          <attvalue for="2" value="Verdasco" />
+          <attvalue for="3" value="ESP" />
+        </attvalues>
+      </node>
+      <node id="105550" label="Pella">
+        <attvalues>
+          <attvalue for="0" value="Guido Pella" />
+          <attvalue for="1" value="Guido" />
+          <attvalue for="2" value="Pella" />
+          <attvalue for="3" value="ARG" />
+        </attvalues>
+      </node>
+      <node id="104527" label="Wawrinka">
+        <attvalues>
+          <attvalue for="0" value="Stanislas Wawrinka" />
+          <attvalue for="1" value="Stanislas" />
+          <attvalue for="2" value="Wawrinka" />
+          <attvalue for="3" value="SUI" />
+        </attvalues>
+      </node>
+      <node id="105936" label="Krajinovic">
+        <attvalues>
+          <attvalue for="0" value="Filip Krajinovic" />
+          <attvalue for="1" value="Filip" />
+          <attvalue for="2" value="Krajinovic" />
+          <attvalue for="3" value="SRB" />
+        </attvalues>
+      </node>
+      <node id="105041" label="Lacko">
+        <attvalues>
+          <attvalue for="0" value="Lukas Lacko" />
+          <attvalue for="1" value="Lukas" />
+          <attvalue for="2" value="Lacko" />
+          <attvalue for="3" value="SVK" />
+        </attvalues>
+      </node>
+      <node id="105554" label="Evans">
+        <attvalues>
+          <attvalue for="0" value="Daniel Evans" />
+          <attvalue for="1" value="Daniel" />
+          <attvalue for="2" value="Evans" />
+          <attvalue for="3" value="GBR" />
+        </attvalues>
+      </node>
+      <node id="105683" label="Raonic">
+        <attvalues>
+          <attvalue for="0" value="Milos Raonic" />
+          <attvalue for="1" value="Milos" />
+          <attvalue for="2" value="Raonic" />
+          <attvalue for="3" value="CAN" />
+        </attvalues>
+      </node>
+      <node id="105173" label="Mannarino">
+        <attvalues>
+          <attvalue for="0" value="Adrian Mannarino" />
+          <attvalue for="1" value="Adrian" />
+          <attvalue for="2" value="Mannarino" />
+          <attvalue for="3" value="FRA" />
+        </attvalues>
+      </node>
+      <node id="105430" label="Albot">
+        <attvalues>
+          <attvalue for="0" value="Radu Albot" />
+          <attvalue for="1" value="Radu" />
+          <attvalue for="2" value="Albot" />
+          <attvalue for="3" value="MDA" />
+        </attvalues>
+      </node>
+      <node id="104919" label="Mayer">
+        <attvalues>
+          <attvalue for="0" value="Leonardo Mayer" />
+          <attvalue for="1" value="Leonardo" />
+          <attvalue for="2" value="Mayer" />
+          <attvalue for="3" value="ARG" />
+        </attvalues>
+      </node>
+      <node id="104792" label="Monfils">
+        <attvalues>
+          <attvalue for="0" value="Gael Monfils" />
+          <attvalue for="1" value="Gael" />
+          <attvalue for="2" value="Monfils" />
+          <attvalue for="3" value="FRA" />
+        </attvalues>
+      </node>
+      <node id="111576" label="Nagal">
+        <attvalues>
+          <attvalue for="0" value="Sumit Nagal" />
+          <attvalue for="1" value="Sumit" />
+          <attvalue for="2" value="Nagal" />
+          <attvalue for="3" value="IND" />
+        </attvalues>
+      </node>
+      <node id="200282" label="De Minaur">
+        <attvalues>
+          <attvalue for="0" value="Alex De Minaur" />
+          <attvalue for="1" value="Alex" />
+          <attvalue for="2" value="De Minaur" />
+          <attvalue for="3" value="AUS" />
+        </attvalues>
+      </node>
+      <node id="105051" label="Ebden">
+        <attvalues>
+          <attvalue for="0" value="Matthew Ebden" />
+          <attvalue for="1" value="Matthew" />
+          <attvalue for="2" value="Ebden" />
+          <attvalue for="3" value="AUS" />
+        </attvalues>
+      </node>
+      <node id="105815" label="Sandgren">
+        <attvalues>
+          <attvalue for="0" value="Tennys Sandgren" />
+          <attvalue for="1" value="Tennys" />
+          <attvalue for="2" value="Sandgren" />
+          <attvalue for="3" value="USA" />
+        </attvalues>
+      </node>
+      <node id="104925" label="Djokovic">
+        <attvalues>
+          <attvalue for="0" value="Novak Djokovic" />
+          <attvalue for="1" value="Novak" />
+          <attvalue for="2" value="Djokovic" />
+          <attvalue for="3" value="SRB" />
+        </attvalues>
+      </node>
+      <node id="104926" label="Fognini">
+        <attvalues>
+          <attvalue for="0" value="Fabio Fognini" />
+          <attvalue for="1" value="Fabio" />
+          <attvalue for="2" value="Fognini" />
+          <attvalue for="3" value="ITA" />
+        </attvalues>
+      </node>
+      <node id="104797" label="Istomin">
+        <attvalues>
+          <attvalue for="0" value="Denis Istomin" />
+          <attvalue for="1" value="Denis" />
+          <attvalue for="2" value="Istomin" />
+          <attvalue for="3" value="UZB" />
+        </attvalues>
+      </node>
+      <node id="105311" label="Sousa">
+        <attvalues>
+          <attvalue for="0" value="Joao Sousa" />
+          <attvalue for="1" value="Joao" />
+          <attvalue for="2" value="Sousa" />
+          <attvalue for="3" value="POR" />
+        </attvalues>
+      </node>
+      <node id="104545" label="Isner">
+        <attvalues>
+          <attvalue for="0" value="John Isner" />
+          <attvalue for="1" value="John" />
+          <attvalue for="2" value="Isner" />
+          <attvalue for="3" value="USA" />
+        </attvalues>
+      </node>
+      <node id="111202" label="Chung">
+        <attvalues>
+          <attvalue for="0" value="Hyeon Chung" />
+          <attvalue for="1" value="Hyeon" />
+          <attvalue for="2" value="Chung" />
+          <attvalue for="3" value="KOR" />
+        </attvalues>
+      </node>
+      <node id="104542" label="Tsonga">
+        <attvalues>
+          <attvalue for="0" value="Jo Wilfried Tsonga" />
+          <attvalue for="1" value="Jo Wilfried" />
+          <attvalue for="2" value="Tsonga" />
+          <attvalue for="3" value="FRA" />
+        </attvalues>
+      </node>
+      <node id="106214" label="Otte">
+        <attvalues>
+          <attvalue for="0" value="Oscar Otte" />
+          <attvalue for="1" value="Oscar" />
+          <attvalue for="2" value="Otte" />
+          <attvalue for="3" value="GER" />
+        </attvalues>
+      </node>
+      <node id="105449" label="Johnson">
+        <attvalues>
+          <attvalue for="0" value="Steve Johnson" />
+          <attvalue for="1" value="Steve" />
+          <attvalue for="2" value="Johnson" />
+          <attvalue for="3" value="USA" />
+        </attvalues>
+      </node>
+      <node id="105453" label="Nishikori">
+        <attvalues>
+          <attvalue for="0" value="Kei Nishikori" />
+          <attvalue for="1" value="Kei" />
+          <attvalue for="2" value="Nishikori" />
+          <attvalue for="3" value="JPN" />
+        </attvalues>
+      </node>
+      <node id="144750" label="Harris">
+        <attvalues>
+          <attvalue for="0" value="Lloyd George Muirhead Harris" />
+          <attvalue for="1" value="Lloyd George Muirhead" />
+          <attvalue for="2" value="Harris" />
+          <attvalue for="3" value="RSA" />
+        </attvalues>
+      </node>
+      <node id="105583" label="Lajovic">
+        <attvalues>
+          <attvalue for="0" value="Dusan Lajovic" />
+          <attvalue for="1" value="Dusan" />
+          <attvalue for="2" value="Lajovic" />
+          <attvalue for="3" value="SRB" />
+        </attvalues>
+      </node>
+      <node id="105074" label="Bemelmans">
+        <attvalues>
+          <attvalue for="0" value="Ruben Bemelmans" />
+          <attvalue for="1" value="Ruben" />
+          <attvalue for="2" value="Bemelmans" />
+          <attvalue for="3" value="BEL" />
+        </attvalues>
+      </node>
+      <node id="134770" label="Ruud">
+        <attvalues>
+          <attvalue for="0" value="Casper Ruud" />
+          <attvalue for="1" value="Casper" />
+          <attvalue for="2" value="Ruud" />
+          <attvalue for="3" value="NOR" />
+        </attvalues>
+      </node>
+      <node id="105332" label="Paire">
+        <attvalues>
+          <attvalue for="0" value="Benoit Paire" />
+          <attvalue for="1" value="Benoit" />
+          <attvalue for="2" value="Paire" />
+          <attvalue for="3" value="FRA" />
+        </attvalues>
+      </node>
+      <node id="106228" label="Londero">
+        <attvalues>
+          <attvalue for="0" value="Juan Ignacio Londero" />
+          <attvalue for="1" value="Juan Ignacio" />
+          <attvalue for="2" value="Londero" />
+          <attvalue for="3" value="ARG" />
+        </attvalues>
+      </node>
+      <node id="105077" label="Ramos">
+        <attvalues>
+          <attvalue for="0" value="Albert Ramos" />
+          <attvalue for="1" value="Albert" />
+          <attvalue for="2" value="Ramos" />
+          <attvalue for="3" value="ESP" />
+        </attvalues>
+      </node>
+      <node id="104312" label="Seppi">
+        <attvalues>
+          <attvalue for="0" value="Andreas Seppi" />
+          <attvalue for="1" value="Andreas" />
+          <attvalue for="2" value="Seppi" />
+          <attvalue for="3" value="ITA" />
+        </attvalues>
+      </node>
+      <node id="106233" label="Thiem">
+        <attvalues>
+          <attvalue for="0" value="Dominic Thiem" />
+          <attvalue for="1" value="Dominic" />
+          <attvalue for="2" value="Thiem" />
+          <attvalue for="3" value="AUT" />
+        </attvalues>
+      </node>
+      <node id="126203" label="Fritz">
+        <attvalues>
+          <attvalue for="0" value="Taylor Harry Fritz" />
+          <attvalue for="1" value="Taylor Harry" />
+          <attvalue for="2" value="Fritz" />
+          <attvalue for="3" value="USA" />
+        </attvalues>
+      </node>
     </nodes>
     <edges>
       <edge source="105732" target="105227" id="0" weight="2" />

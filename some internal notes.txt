@@ -1,0 +1,4 @@
+modularity color scheme: https://coolors.co/d8464b-1a7426-8fc93a-35acd4-fca17d-6e100c-7835ac-caf0f8
+
+year graphs layout: random -> openord -> noverlap -> label adjust
+ego graphs layout: random -> force atlas -> noverlap -> label adjust
